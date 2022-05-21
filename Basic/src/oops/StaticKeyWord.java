@@ -1,10 +1,15 @@
-package oops;
+package Basic.src.oops;
 
 class Emp{
 	int id;
 	int salary;
 	// ceo variable is common for all the objects
 	static String ceo;
+	/*
+	 * id, salary are in heap memory - specific to object
+	 * salary is in Class Loader Memory - same for all objects
+	 *
+	 */
 	
 	// static block only run when class loads
 	static {
