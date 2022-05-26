@@ -1,4 +1,4 @@
-package Basic.src.oops;
+package oops;
 
 interface Writer{
     // every variable assignment is final in interface
