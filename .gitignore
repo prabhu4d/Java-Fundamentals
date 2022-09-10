@@ -5,3 +5,8 @@
 */out/
 **/target/**
 */.idea
+.vscode
+derby.log
+.settings
+.classpath
+.project
